@@ -1,0 +1,16 @@
+
+body {background-image: url(kiwi-bg.png); }
+/* background-size: cover; */
+.container { width:1028px; height: 280px; border:3px solid #008000; border-radius: 30px; background-color: white; position: relative; margin: 0 auto; margin-top: 30px;}
+.container .wrapper { padding: 30px 35px; position: relative;}
+.container h1 { font-size: 32px; color: #008000; margin-bottom: 10px;}
+.container .wrapper ul {position: absolute; color: white; background-color:#008000; border-radius:25px; padding:0 10px; top: 30px; right: 35px;}
+.container .wrapper a:link { color:white; }
+.container .wrapper a:visited { color:white; }
+.container .wrapper a:hover { color:white; text-decoration: underline; }
+.container .wrapper a:active { color:white; } { }
+
+.container .wrapper ul li {line-height: 1.4; padding: 14px 10px; float: left;}
+.container .wrapper ul li::after {padding-left: 0;}
+.wrapper p { position: relative; left:350px; width: 300px; float: left; padding-right: 20px; line-height: 1.3em;}
+.container .kiwi { position: absolute; left: -67px; bottom: -76px;}

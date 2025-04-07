@@ -1,0 +1,32 @@
+
+body { background-image: url(straw-bg.png); } 
+/* background-size: cover; */
+.container { width:1028px; border:3px solid #ff0000; border-radius: 30px; background-color: white; position: relative; margin: 0 auto; margin-top: 30px; } 
+.container .wrapper { padding: 30px 35px; position: relative; } 
+.container h1 { font-size: 32px; color: #ff0000; margin-bottom: 10px; } 
+.container .wrapper .nav { position: absolute; color: white; background-color:#ff0000; border-radius:25px; padding:0 10px; top: 30px; right: 35px; } 
+
+.container .wrapper a:link { color:white; } 
+.container .wrapper a:visited { color:white; } 
+.container .wrapper a:hover { color:white; text-decoration: underline; } 
+.container .wrapper a:active { color:white; } { } 
+
+.container .wrapper .nav > li { line-height: 1.4; padding: 14px 10px; float: left; } 
+.container .wrapper .nav > li::after { padding-left: 0; } 
+
+.container .wrapper .food { clear: both; width: 960px; border-top: 3px solid #ff0000; border-bottom: 3px solid #ff0000; height: 220px;} 
+
+.container .wrapper .food > li { float: left; width: 220px; height: 220px; background-image: url('straw-food.png'); } 
+.container .wrapper .food > img { overflow: hidden; } 
+
+.container .wrapper .food .cake { background-position: 0px 0px;}
+.container .wrapper .food .cake:hover { background-position: 0px 220px; } 
+
+.container .wrapper .food .pie { background-position: 220px 0px;}
+.container .wrapper .food .pie:hover { background-position: 220px 220px; }
+
+.container .wrapper .food .jam { background-position: 440px 0px;}
+.container .wrapper .food .jam:hover { background-position: 440px 220px; } 
+
+.wrapper p { width: 300px; float: left; padding-right: 20px; line-height: 1.3em; margin-bottom: 20px; } 
+.container .orange { position: absolute; right: -120px; top: 128px; } 

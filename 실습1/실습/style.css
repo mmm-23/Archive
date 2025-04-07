@@ -5,12 +5,15 @@ body {background-image: url(orange-bg.png); }
 .container .wrapper { padding: 30px 35px; position: relative;}
 .container h1 { font-size: 32px; color: #f90; margin-bottom: 10px;}
 .container .wrapper ul {position: absolute; color: white; background-color:#ffa500; border-radius:25px; padding:0 10px; top: 30px; right: 35px;}
+
+.container .wrapper a { display: block; padding: 14px 10px; /* height: 50px; line-height: 50px; */ }
 .container .wrapper a:link { color:white; }
 .container .wrapper a:visited { color:white; }
 .container .wrapper a:hover { color:white; text-decoration: underline; }
-.container .wrapper a:active { color:white; } { }
+.container .wrapper a:active { color:white; }
 
-.container .wrapper ul li {line-height: 1.4; padding: 14px 10px; float: left;}
+.container .wrapper ul li {line-height: 1.4; float: left;}
 .container .wrapper ul li::after {padding-left: 0;}
+
 .wrapper p {width: 300px; float: left; padding-right: 20px; line-height: 1.3em;}
-.container .orange { position: absolute; right: -16px; bottom: -90px;}
+.container .orange { position: absolute; right: -30px; bottom: -100px;}

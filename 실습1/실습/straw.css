@@ -1,0 +1,36 @@
+
+body {background-image: url(straw-bg.png); }
+/* background-size: cover; */
+.container { width:1028px; border:3px solid #ff0000; border-radius: 30px; background-color: white; position: relative; margin: 0 auto; margin-top: 30px;}
+.container .wrapper { padding: 30px 35px; position: relative;}
+.container h1 { font-size: 32px; color: #ff0000; margin-bottom: 10px;}
+.container .wrapper .nav {position: absolute; color: white; background-color:#ff0000; border-radius:25px; padding:0 10px; top: 30px; right: 35px;}
+.container .wrapper a:link { color:white; }
+.container .wrapper a:visited { color:white; }
+.container .wrapper a:hover { color:white; text-decoration: underline; }
+.container .wrapper a:active { color:white; } { }
+
+.container .wrapper .nav > li {line-height: 1.4; padding: 14px 10px; float: left;}
+.container .wrapper .nav > li::after {padding-left: 0;}
+
+.container .wrapper .food { clear: both; width: 960px; margin-top: 20px; border-top: 3px solid #ff0000; border-bottom: 3px solid #ff0000; position: relative; height: 220px;}
+.container .wrapper .food > li { float: left; padding-right: 45px; background-color: yellowgreen; width: 174px; height: 174px;}
+
+.container .wrapper .food > img { }
+
+.container .wrapper .food .cake {
+  width: 174px;  /* 컨테이너의 너비 */
+  height: 174px; /* 컨테이너의 높이 */
+  background-image: url('/실습1/실습/straw-food.png');  /* 하나의 배경 이미지 */
+  background-position: 24 22;  /* 기본 이미지 위치 */
+  transition: background-position 0.3s ease;  /* 부드러운 전환 효과 */
+}
+
+.container .wrapper .food > .cake:hover {
+  background-position: -100px -100px;  /* 호버 시 이미지 위치 이동 */}
+
+.container .wrapper .food .pie {}
+.container .wrapper .food .jam {}
+
+.wrapper p {width: 300px; float: left; padding-right: 20px; line-height: 1.3em;}
+.container .orange { position: absolute; right: -76px; top: 128px;}
